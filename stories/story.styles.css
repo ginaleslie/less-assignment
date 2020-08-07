@@ -1,0 +1,91 @@
+.btn {
+	padding: 8px 12px;
+	font-size: 15px;
+	background-color: transparent;
+	border: 2px solid #f27c22;
+	color: #f27c22;
+	width: 25%;
+}
+.img-btn {
+	padding-right: 6px;
+	height: 15px;
+	width: auto;
+}
+.img-btn-r {
+	padding-left: 6px;
+	height: 15px;
+	width: auto;
+}
+.search-container {
+	border-radius: 3px;
+	border: 2px solid #f27c22;
+	background: transparent;
+}
+.input {
+	padding: 8px;
+	font-size: 16px;
+	border: none;
+	background: transparent;
+}
+
+.input:focus {
+	border: none;
+	border-width: 0;
+	box-shadow: none;
+	outline: none !important;
+}
+.search-container button {
+	float: right;
+	padding: 7px 12px;
+
+	margin-left: 23px;
+	background: #f27c22;
+	/* font-size: 17px; */
+	border: none;
+	cursor: pointer;
+}
+
+.search-container button:hover {
+	background: #f27c22;
+}
+.btn-primary {
+	background-color: #f27c22;
+	border: #f27c22;
+	width: 100%;
+}
+.shadow-btn {
+	box-shadow: 3px 5px 6px 0 rgba(0, 0, 0, 0.1) !important;
+	transition: all 0.3s ease-in-out;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	width: 30%;
+}
+.shadow-btn:hover {
+	box-shadow: none !important;
+	transform: translate(0px, 3px);
+	box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.07) !important;
+}
+.border-rad {
+	border-radius: 3px;
+}
+.text-white {
+	color: white;
+}
+.cart-number {
+	border-radius: 13px;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 38px;
+	text-align: center;
+	font-size: 16px;
+}
+.secondary-bg {
+	background-color: #1885b0;
+}
+.max-width {
+	max-width: 45px;
+	min-width: 45px;
+}

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bid or buy</title>
+	
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+			rel="stylesheet"
+		/>
+	
+		<!-- <link rel="stylesheet/less" type="text/css" href="./main.less" /> -->
+		<link rel="stylesheet" href="./styles/main.css" />
+	</head>
+	<body>
+		<header class="">
+			<div class="nav">
+				<div>
+					<a class="text-muted" href="#"
+						><img src="./img/Logo blue.png" class="logo"
+					/></a>
+				</div>
+
+				<div class="flex flex-align-center">
+					<div class="search-container shadow-btn border-rad">
+						<input
+							type="text"
+							placeholder="Search.."
+							name="search"
+							class="input"
+						/>
+						<button>
+							<img src="./img/Search icon white.svg" />
+						</button>
+					</div>
+
+					<button class="btn shadow-btn btn-search border-rad">
+						<img src="./img/Search icon white.svg" class="p-d m-0" />
+					</button>
+
+					<div class="shadow-btn ml-3 mr-3 mlr-small">
+						<a href="#">
+							<button
+								type="button"
+								class="btn btn-primary text-white font-16 border-rad"
+							>
+								Login<img
+									src="./img/Account icon white.png"
+									class="no-pm"
+								/></button
+						></a>
+					</div>
+					<div class="shadow-btn">
+						<a href="#">
+							<div class="cart-number secondary-bg text-white">3</div>
+							<button type="button" class="btn btn-primary border-rad">
+								<img src="./img/Cart icon white.png" /></button
+						></a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="nav-scroller py-1 pb-5 border-b-primary">
+			<nav class="nav d-flex justify-content-between secondary-bg  text-center">
+				<div class="pt-3">
+					<a class="mlr-small text-white" href="#">Stores</a>
+					<a class="mlr-small text-white" href="#">Crazy Wednesdays</a>
+					<a class="mlr-small text-white" href="#">Snap Friday</a>
+					<a class="mlr-small text-white" href="#">Digital</a>
+					<a class="mlr-small text-white" href="#">Home & Garden</a>
+					<a class="mlr-small text-white" href="#">Toys & Baby</a>
+					<a class="mlr-small text-white" href="#">Fashion</a>
+					<a class="mlr-small text-white" href="#">Jewellery</a>
+					<a class="mlr-small text-white" href="#">Sports & Health</a>
+					<a class="mlr-small text-white" href="#">Lifestyle</a>
+					<a class="mlr-small text-white" href="#">Collectables</a>
+					<a class="mlr-small text-white" href="#">Automotive</a>
+					<a class="mlr-small text-white" href="#">Business & Properties</a>
+					<a class="mlr-small text-white" href="#">Other Categories</a>
+				</div>
+			</nav>
+		</div>
+		<div class="max-width">
+			<div class="row">
+				<div class="flex-6 ">
+			<div class="slideshow-container shadow border-rad">
+
+				<div class="mySlides fade " >
+				  
+				  <img src="./img/200709141225_Computers category banners - Laptop bags.jpeg" style="width:100%" class="border-rad ">
+				  <div class="text primary-bg flex-between bottom-rad "><h2 class="mlr-small">Laptop bags</h2><p class="mlr-small">View more ></p></div>
+				</div>
+				
+				<div class="mySlides fade">
+				 
+				  <img src="./img/200709141225_Computers category banners - High end laptops.jpeg" style="width:100%" class="border-rad">
+				  <div class="text primary-bg flex-between bottom-rad"><h2 class="mlr-small">Laptop sale</h2><p class="mlr-small">View more ></p></div>
+				  
+				</div>
+				
+				<div class="mySlides fade">
+				 
+				  <img src="./img/200713080842_HP Banners - bidorbuy digital.jpeg" style="width:100%" class="border-rad">
+				  <div class="text primary-bg flex-between bottom-rad"><h2 class="mlr-small">30% off on all digital products </h2><p class="mlr-small">View more ></p></div>
+				</div>
+				
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<div class="dots-3">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				  </div>
+				</div>
+				<br>
+				
+			
+		
+
+			
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				
+			</div>
+				<div class="flex-3 ">
+					<div class="card-bg border-rad shadow  pl-small">
+						<img src="./img/8.jpeg" class="img-100" />
+						<h2 class="primary p-small">
+							Join the gaming community with these sweet specials
+						</h2>
+						<p class="p-small pt-xs primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor, arcu ut blandit elementum</p>
+						<div class="p-small">
+						<button class="btn btn-block border-primary border-rad">
+							View more >
+						</button>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+		<div class="pt-4 max-width mb-4 border-rad ">
+			<div class="shadow-no-hover border-rad card-bg">
+				<div class="secondary-bg mt-5 top-rad">
+					<h1 class="text-white ptb-small text-center">Deals of the week</h1>
+				</div>
+				<div  id="wrapper">
+				<div id="carousel-row-1" class="pt-4">
+					<div id="content-1">
+						<div class="item pb-4">
+							<img src="./img/dish.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/game-2.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/image_42615_1_23942.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/tap.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/watch.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p>Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/weave.png" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/game.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/2.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/3.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/4.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/5.jpeg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/6.png" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+						<div class="item pb-4">
+							<img src="./img/7.jpg" class="img-width" />
+							<div class="info">
+								<div class="row flex-between">
+									<p >Lorem ipsum</p>
+									<h4 class="pl-2 bold">R50</h4>
+								</div>
+
+								<img src="./img/Mask Group.png" class="stars" />
+								<button class="btn btn-block border-primary">
+									Add to cart<img
+										src="./img/Cart icon orange.png"
+										class="pl-2"
+									/>
+								</button>
+							</div>
+						</div>
+				</div>
+				<button id="prev-1">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+					>
+						<path fill="none" d="M0 0h24v24H0V0z" />
+						<path stroke="#ffffff" fill="#ffffff"
+							d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z"
+						/>
+					</svg>
+				</button>
+				<button id="next-1">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+					>
+						<path fill="none" d="M0 0h24v24H0V0z" />
+						<path stroke="#ffffff" fill="#ffffff"
+							d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z"
+						/>
+					</svg>
+				</button>
+					</div>
+	
+					<div  id="wrapper">
+						<div id="carousel-row-2" class="pt-4">
+							<div id="content-2">
+								<div class="item pb-4">
+									<img src="./img/dish.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/game-2.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/image_42615_1_23942.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/tap.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/watch.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p>Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/weave.png" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/game.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/2.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/3.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/4.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p>Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/5.jpeg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/6.png" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+								<div class="item pb-4">
+									<img src="./img/7.jpg" class="img-width" />
+									<div class="info">
+										<div class="row flex-between">
+											<p >Lorem ipsum</p>
+											<h4 class="pl-2 bold">R50</h4>
+										</div>
+		
+										<img src="./img/Mask Group.png" class="stars" />
+										<button class="btn btn-block border-primary">
+											Add to cart<img
+												src="./img/Cart icon orange.png"
+												class="pl-2"
+											/>
+										</button>
+									</div>
+								</div>
+						</div>
+						<button id="prev-2">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<path fill="none" d="M0 0h24v24H0V0z" />
+								<path stroke="#ffffff" fill="#ffffff"
+									d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z"
+								/>
+							</svg>
+						</button>
+						<button id="next-2">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<path fill="none" d="M0 0h24v24H0V0z" color="white"/>
+								<path stroke="#ffffff" fill="#ffffff"
+									d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z"
+								/>
+							</svg>
+						</button>
+							</div>
+			
+					</div>
+				</div>
+				<withText></withText>
+	</body>
+	
+	<script src="./main.js"></script>
+	
+	<script>less = { env: 'development'};</script>
+	<script src="less.js"></script>
+	<script>less.watch();</script>
+</html>

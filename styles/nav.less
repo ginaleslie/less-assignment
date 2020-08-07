@@ -1,0 +1,101 @@
+@import "./colors.less";
+
+.nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 2.75rem;
+	overflow-y: hidden;
+}
+.nav {
+	overflow: hidden;
+}
+.nav-scroller .nav {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: scroll;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	font-size: 0.875rem;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+.flex-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-align-center {
+	align-items: center;
+}
+.flex {
+	display: flex;
+}
+.logo {
+	height: 60px;
+	width: auto;
+}
+.btn-search {
+	display: none;
+}
+.border-b-primary {
+	border-bottom: 7px solid @primary-dark;
+}
+.cart-number {
+	border-radius: 13px;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 34px;
+	text-align: center;
+	font-size: 16px;
+}
+.search-container {
+	border-radius: 3px;
+	border: 2px solid @primary-color;
+	background: transparent;
+}
+.input {
+	padding: 8px;
+	font-size: 16px;
+	border: none;
+	background: transparent;
+}
+
+.input:focus {
+	border: none;
+	border-width: 0;
+	box-shadow: none;
+	outline: none !important;
+}
+.search-container button {
+	float: right;
+	padding: 7px 12px;
+
+	margin-left: 23px;
+	background: @primary-color;
+	/* font-size: 17px; */
+	border: none;
+	cursor: pointer;
+}
+
+.search-container button:hover {
+	background: @primary-color;
+}
+
+.width {
+	width: 100vw;
+}

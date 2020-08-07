@@ -1,0 +1,47 @@
+@import "./colors.less";
+@import "./main.less";
+.btn-primary {
+	background-color: @primary-color;
+	border: @primary-color;
+}
+.btn-primary:hover {
+	background-color: @primary-color;
+	border: @primary-color;
+}
+
+.btn {
+	padding: 8px 12px;
+	font-size: 16px;
+}
+.btn-block {
+	width: 100%;
+}
+.shadow {
+	box-shadow: 3px 5px 7px 4px rgba(0, 0, 0, 0.12) !important;
+	transition: all 0.3s ease-in-out;
+	.no-pm();
+	cursor: pointer;
+}
+.shadow-btn {
+	box-shadow: 3px 5px 6px 0 rgba(0, 0, 0, 0.1) !important;
+	transition: all 0.3s ease-in-out;
+	.no-pm();
+	cursor: pointer;
+}
+.shadow-btn:hover {
+	box-shadow: none !important;
+	transform: translate(0px, 3px);
+	box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.07) !important;
+}
+.shadow-no-hover {
+	box-shadow: 3px 5px 7px 4px rgba(0, 0, 0, 0.12) !important;
+	transition: all 0.3s ease-in-out;
+	.no-padding-margin();
+	cursor: pointer;
+}
+
+.shadow:hover {
+	box-shadow: none !important;
+	transform: translate(0px, 3px);
+	box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.07) !important;
+}
